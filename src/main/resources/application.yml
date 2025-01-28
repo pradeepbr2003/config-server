@@ -5,8 +5,8 @@ spring:
         git:
           uri: https://github.com/pradeepbr2003/config-service
           search-paths:
-            - '{profile}'
+            - '*/{profile}'
           refresh-rate: 0
-        default-label: main
+        default-label: test
 server:
   port: 8181
